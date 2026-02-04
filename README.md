@@ -98,26 +98,8 @@ Example prompts:
 
 ---
 
-## 👤 Author
-**Rashid Mehmood**  
-📧 [rashidmehmood5914@gmail.com](mailto:rashidmehmood5914@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/rashid-mehmood-aimachinelearningengineer/) | [GitHub](https://github.com/rmehmood786)
 
----
 
-## 🧩 Git Commands to Push Updates
 
-From inside your project folder:
-
-```powershell
-cd "C:\Users\Rashid Mehmood\Downloads\genai-knowledge-assistant\genai-knowledge-assistant"
-.venv\Scripts\Activate.ps1
-
-git add .
-git commit -m "update: fully offline version using HuggingFace + Flan-T5 with badges"
-git branch -M main
-git remote set-url origin https://github.com/rmehmood786/genai-knowledge-assistant.git
-git push -u origin main
-```
 
 > ✅ **Note:** Ensure `.env` is in your `.gitignore` so your local API keys remain private.
